@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.card{
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba , #5b548a );
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: centre;
+    width: fit-content;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: centre;
+    gap: 10px;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    width:1cm;
+}
+.search button img{
+    width: 16px;
+}
+#clear{
+    width: fit-content;
+    width: 2.5cm;
+    margin-left: 32%;
+}
+h1,h2{
+    text-align: center;
+}
+h2{
+    font-weight: 100;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    text-align: center;
+}
+#wind{
+    width: 66px;
+}
+#col{
+    display: flex;
+    align-items: center;
+}
+#col img{
+    width: 1cm;
+    padding:5%;
+}
+.weather{
+    display: none;
+}
+.Error{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: none;
+}
+
